@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --primary: rgb(248, 211, 0);
+  
+}
+  /* global */
+html {
+  font-size: 62.5%; /* 16px == 100% so (10/16) == 10px
+                     now 1 rem=10px */
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+p {
+  font-size: 1.6rem;
+}
+img {
+  width: 8rem;
+  height: 3rem;
+}
+/* utilities */
+
+/* menu */
+
+nav.menu {
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+}
+
+/* header */
+
+.site-header{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+  height: 80vh;
+  margin: 5px;
+}
+
+.site-header h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+.site-header-button a:visited{
+    color: white;
+    font-size: larger;
+}
+.site-header-button a:hover{
+    background-color: var(--primary);
+    color: black;
+}
+.yellow-tac{
+    color: var(--primary);
+    font-size: 10rem;
+    justify-content: center;
+    text-align: center;
+}
+.main-story{
+  height: 45rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(https://i.natgeofe.com/n/b833c0ae-f906-44d2-acf7-a54758810daf/B6J39T.jpg?w=1024&h=1492);
+  background-position: center;
+  background-size: cover;
+}
