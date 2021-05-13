@@ -19,35 +19,123 @@
   </head>
   <body>
     <nav class="menu">
-      <p>login</p>
-      <p>Renew</p>
-      <p>Menu</p>
-      <i class="fas fa-angle-double-down"></i>
-      <img class="logo" src="nat-geo-logo.png" alt="National geographic" />
-    </nav>
-    <header class="site-header">
-      <h1>latest stories</h1>
-      <p> 
-        <span class="site-header-button">
-          <a href="subscribe-page.html">Subscribe</a>
-        </span>  for full access
-        to readstories from national geographic
-      </p>
-      <div class="main-story">
-        <div class="main-story-text">
-          <h2>
-          Animals
-          </h2>
-          <p class="title">chimp moms are like us: They Mourn, dote</p>
-          <p class=""></p>
+      <div class="icons">
+        <img
+          class="show"
+          class="logo"
+          src="img/nat-geo-logo-small.png"
+          alt="National geographic"
+        />
+        <img
+          class="hide"
+          class="logo"
+          src="img/nat-geo-logo.png"
+          alt="National geographic"
+        />
+
+        <div class="top-bar-options">
+          <p>&ThickSpace;LOGIN&ThickSpace;</p>
+          <p class="hide">&ThickSpace;Renew&ThickSpace;</p>
+          <p class="hide">&ThickSpace;Menu&ThickSpace;</p>
+          <p class="menu-sub-button">&ThickSpace;<a href="#">SUBSCRIBE</a>&ThickSpace;</p>
+          <p>&ThickSpace;<i class="fas fa-caret-down"></i>&ThickSpace;</p>
         </div>
       </div>
-      <div>
-        <!-- img -->
-        <!-- div bg white -->
-        <!-- play with margins can use neg margins -->
-      </div>
+    </nav>
+    <header class="site-header">
+      <h1 class="mobile-headline center-content">latest stories</h1>
+      <p class="center-content">
+        <span class="site-header-button center-content">
+          <a
+            href="subscribe-page.html"
+            style="
+              text-decoration: underline;
+              text-decoration-color: var(--primary);
+            "
+            >Subscribe</a
+          >
+        </span>
+        <!-- add a space between sub and for full access.. -->
+        &ThinSpace;for full access to readstories from National Geograpic.
+        <br />
+        <!-- for little yellow tac on top section. -->
+        <span
+          class="yellow-tac"
+          style="color: var(--primary); font-size: 60px; height: 10px"
+          .center-content
+          >-
+        </span>
+      </p>
 
+      <div class="header-container">
+        <div class="news">
+          <div class="main-news">
+            <div class="main-news-text">
+              <h2>Animals</h2>
+              <h3>for sale</h3>
+              <p class="title">
+                Chimps, everyone wants one.. Human children are overrated. Where
+                do I get mine?
+              </p>
+              <p class="read-text">
+                <i class="fas fa-bars"></i>&MediumSpace;READ
+              </p>
+            </div>
+          </div>
+          <div class="second-news-section">
+            <div class="secondary-news">
+              <img
+                src="img/second-picture-natgeo.PNG"
+                alt="National geographic"
+              />
+              <div class="secondary-news-text">
+                <h2>science</h2>
+                <p>fda blah blah</p>
+                <p class="read-text">
+                  <i class="fas fa-bars"></i>&MediumSpace;read
+                </p>
+              </div>
+            </div>
+
+            <div class="secondary-news">
+              <img
+                src="img/third-picture-natgeo.PNG"
+                alt="National geographic"
+              />
+              <div class="secondary-news-text">
+                <h2>science</h2>
+                <p>fda blah blah</p>
+                <p class="read-text"><i class="fas fa-bars"></i>read</p>
+              </div>
+              <!-- div bg white -->
+              <!-- play with margins can use neg margins -->
+            </div>
+          </div>
+        </div>
+        <section>
+          <h4 class="todays-picks">| TODAY'S PICKS</h4>
+          <div class="picks-element">
+            <img src="img/third-picture-natgeo.PNG" alt="oops" />
+            <p>Updates on californias new poilitcal shananigans</p>
+          </div>
+          <div class="picks-element">
+            <img src="img/fourth-picture-natgeo.PNG" alt="oops" />
+            <p>The vaccine we all got isn't what we thought</p>
+          </div>
+          <div class="picks-element">
+            <img src="img/fifth-picture-natgeo.PNG" alt="oops" />
+            <p>Someone has to do this and it might as well be me</p>
+          </div>
+          <div class="picks-element">
+            <img src="img/sixth-picture-natgeo.PNG" alt="oops" />
+            <p>Will the dishes ever be done.. dont think so.</p>
+          </div>
+          <!-- used same as subscribe hover selection -->
+          <p class="site-header-button center-content">
+            <a href="#">See More</a>
+          </p>
+        </section>
+      </div>
     </header>
   </body>
 </html>
